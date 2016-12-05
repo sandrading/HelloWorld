@@ -4,5 +4,16 @@ node {
     		git pull
 	else
     		git clone --progress -o origin https://github.com/littlemee/HelloWorld.git
-fi
+	fi
+}
+
+stage('Build') {
+    node {
+        checkout scm
+        sh 'make'
+        stash includes: '**/HelloWorld/*.class', name: 'test' // <1>
+    }
+}
+
+	
 
