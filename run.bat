@@ -1,20 +1,20 @@
 @echo off
 echo compile java files
-echo µ±Ç°¹¤×÷Â·¾¶£º"%cd%"
-rem ±àÒëÏîÄ¿Ãû³ÆHelloWorld
+echo å½“å‰å·¥ä½œè·¯å¾„ï¼š"%cd%"
+rem ç¼–è¯‘é¡¹ç›®åç§°HelloWorld
 set "PROJECET_NAME=HelloWorld"
-cd C:\Users\aimee.mo\Documents\Github\helloWorld\%PROJECET_NAME%\
+cd C:\Users\aimee.mo\Documents\Github\%PROJECET_NAME%\
 javac *.java
 goto SUCCESS
 :SUCCESS
-echo ±àÒë½áÊø
-echo ½«%PROJECET_NAME%ÎÄ¼ş¼Ğclass files·¢²¼ÖÁDeployÄ¿Â¼
+echo ç¼–è¯‘ç»“æŸ
+echo å°†%PROJECET_NAME%æ–‡ä»¶å¤¹class fileså‘å¸ƒè‡³Deployç›®å½•
 cd C:\Users\aimee.mo\Documents\Github\Deploy
 set a="%time:~7%"
 echo %a%
 set path=%PROJECET_NAME%%a%
 mkdir %path%
 echo %path%
-copy C:\Users\aimee.mo\Documents\Github\helloWorld\%PROJECET_NAME%\*.class C:\Users\aimee.mo\Documents\Github\Deploy\%path%\
+copy C:\Users\aimee.mo\Documents\Github\%PROJECET_NAME%\*.class C:\Users\aimee.mo\Documents\Github\Deploy\%path%\
 pause
 exit 
