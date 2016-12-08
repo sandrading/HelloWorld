@@ -12,7 +12,7 @@ public class Test {
 	map.put("city2","Beijing");
 	 map.put("name3","Anna");
 	 map.put("city3","Nanjing");
-	 map.put("name4","Angela");
+	 map.put("name4","Angela test");
 
 	Set<Entry<String, String>> sets = map.entrySet();  
         for(Entry<String, String> entry : sets) {  
