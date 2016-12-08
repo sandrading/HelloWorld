@@ -11,7 +11,8 @@ public class Test {
 	map.put("name2","Annie");
 	map.put("city2","Beijing");
 	 map.put("name3","Anna");
-	 map.put("city3","Nanjing");	
+	 map.put("city3","Nanjing");
+	 map.put("name4","Angela");
 
 	Set<Entry<String, String>> sets = map.entrySet();  
         for(Entry<String, String> entry : sets) {  
