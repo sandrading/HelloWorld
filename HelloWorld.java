@@ -3,5 +3,6 @@ public class HelloWorld {
 	System.out.println("Hello World!");
 	System.out.println("This is a test!");
 	System.out.println("Test to build 1-branch1!");
+	  System.out.println("Test trigger1!");	
   }
 }
