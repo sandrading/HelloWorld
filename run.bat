@@ -2,8 +2,8 @@
 echo compile java files
 echo 当前工作路径："%cd%"
 rem 编译项目名称HelloWorld
-set "PROJECET_NAME=HelloWorld"
-cd C:\Users\aimee.mo\Documents\Github\%PROJECET_NAME%\
+set "PROJECET_NAME=HiTest"
+cd C:\Program Files (x86)\Jenkins\workspace\%PROJECET_NAME%\
 javac *.java
 goto SUCCESS
 :SUCCESS
@@ -15,6 +15,6 @@ echo %a%
 set path=%PROJECET_NAME%%a%
 mkdir %path%
 echo %path%
-copy C:\Users\aimee.mo\Documents\Github\%PROJECET_NAME%\*.class C:\Users\aimee.mo\Documents\Github\Deploy\%path%\
+copy C:\Program Files (x86)\Jenkins\workspace\%PROJECET_NAME%\*.class C:\Users\aimee.mo\Documents\Github\Deploy\%path%\
 pause
 exit 
