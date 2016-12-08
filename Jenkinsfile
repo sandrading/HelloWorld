@@ -10,7 +10,7 @@ node {
 stage('Build') {
     node {
         checkout scm
-        sh 'make'
+        sh 'bat'
         stash includes: '**/HelloWorld/*.class', name: 'test' // <1>
     }
 }
