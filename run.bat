@@ -1,4 +1,3 @@
-﻿@echo off
 echo compile java files
 echo current path:"%cd%"
 rem compile free-style-1
