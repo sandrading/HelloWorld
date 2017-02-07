@@ -1,17 +1,17 @@
 <suite name="Project A RestAPI automation suite"> 
- <test name="Testcase1"> 
+ <test name="Test1"> 
  <classes> 
- <class name="tests.Testcase1" /> 
+ <class name="TestCase1" /> 
  </classes> 
 </test> 
-<test name="Testcase2"> 
+<test name="Test2"> 
  <classes> 
- <class name="tests.Testcase2" />
+ <class name="TestCase2" />
  </classes> 
 </test> 
-<test name="Testcase3"> 
+<test name="Test3"> 
  <classes> 
- <class name="tests.Testcase3" /> 
+ <class name="TestCase3" /> 
  </classes> 
 </test> 
 </suite>
