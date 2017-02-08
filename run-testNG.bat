@@ -1,7 +1,7 @@
 echo compile java files
 echo current path:"%cd%"
-rem compile free-style-1
-set "PROJECET_NAME=free-style-1"
+rem compile free-style-TestNG
+set "PROJECET_NAME=free-style-TestNG"
 cd "C:\Users\sandra.ding\.jenkins\workspace\%PROJECET_NAME%\"
 javac *.java
 goto SUCCESS
